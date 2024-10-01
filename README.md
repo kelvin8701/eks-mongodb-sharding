@@ -1,4 +1,4 @@
-# eks-mongodb-sharding
+# MongoDB Sharding using Amazon Elastic Kubernetes Service (EKS)
 Setup for mongoDB sharding on Amazon Elastic Kubernetes Service (EKS).
 
 This configuration include :
