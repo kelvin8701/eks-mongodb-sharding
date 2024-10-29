@@ -58,7 +58,7 @@ Follow these steps to set up your EKS cluster:
 Sharding is a crucial part of MongoDB scalability. Follow these steps to configure sharding:
 
 #### **1. Config Server**
--
+- Set all config pods as replicaset, I only use 1 pod, so no need configuartion on config server
 
 #### **2. Configure Each Shard Server**
 
@@ -122,3 +122,9 @@ Repeat the following steps for every shard pod (replace `shard#` with the actual
 
 - Ensure all configurations are correct before applying them to the cluster.
 - Monitor the status of your pods, ReplicaSets, and clusters to ensure everything is running smoothly.
+
+
+## Monitoring
+We'll use Prometheus and Grafana as a monitoring system. After setting up Prometheus and Grafana here's the result of all running nodes.
+
+
